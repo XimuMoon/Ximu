@@ -9,10 +9,10 @@ export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.avif",
 
 	// 名字
-	name: "XiaYe",
+	name: "析木",
 
 	// 个人签名
-	bio: "Hello, I'm XiaYe.",
+	bio: "这里是析木，坐标厦门，日语初心者+lo娘+ACGN爱好者w也许会堆放一些Lolita测评、游戏测评及攻略、法律知识分享、厦门探店、心情与杂谈w.",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons

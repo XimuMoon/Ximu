@@ -25,7 +25,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			// 归档
 			LinkPresets.Archive,
 
-			// 分类
+			// 主题
 			LinkPresets.Categories,
 
 			// 标签
@@ -146,12 +146,12 @@ export const navBarSearchConfig: NavBarSearchConfig = {
 // ============================================================================
 export const LinkPresets: Record<string, NavBarLink> = {
 	Home: {
-		name: "主页",
+		name: "梦之起点",
 		url: "/",
 		icon: "material-symbols:home",
 	},
 	Archive: {
-		name: "归档",
+		name: "时序发布",
 		url: "/archive/",
 		icon: "material-symbols:archive",
 	},
@@ -183,13 +183,19 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		pageKey: "guestbook",
 	},
 	Dynamic: {
-		name: "动态",
+		name: "即刻动态",
 		url: "/dynamic/",
 		icon: "material-symbols:forum-rounded",
 		pageKey: "dynamic",
 	},
 	Projects: {
-		name: "项目",
+		name: "Lolita",
+		url: "/projects/",
+		icon: "material-symbols:rocket-launch",
+		pageKey: "projects",
+	},
+	Lolita: {
+		name: "Lo裙",
 		url: "/projects/",
 		icon: "material-symbols:rocket-launch",
 		pageKey: "projects",

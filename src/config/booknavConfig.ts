@@ -85,15 +85,15 @@ export const booknavConfig: BooknavGroup[] = [
 	},
 	{
 		id: "design",
-		name: "设计",
+		name: "Lolita",
 		icon: "material-symbols:palette-outline-rounded",
-		desc: "配色、图标与灵感来源",
+		desc: "旋转的裙摆、一场永不落幕的舞踏会",
 		weight: 90,
 		items: [
 			{
-				title: "Iconify",
-				url: "https://icon-sets.iconify.design",
-				desc: "海量开源图标集合搜索",
+				title: "lo研社",
+				url: "https://lolitalibrary.com/",
+				desc: "一个Lolita fashion服饰数据库图书馆",
 				weight: 10,
 			},
 			{
